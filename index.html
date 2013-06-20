@@ -1,0 +1,52 @@
+---
+  layout: base
+  title: Home
+---
+
+<div id="banner">
+  <div class="inner-content">
+    <div class="copy">
+      <h1>Cactus</h1>
+      <p class="intro">Cactus is a responsive Jekyll theme that is easy to customize. It provides a baseline design for Jekyll powered websites.</p>
+    </div>
+  </div>
+</div>
+
+<div id="content">
+  <div class="inner-content">
+    <div class="cols">
+      <div class="col">
+        <h3>Features</h3>
+        <ul class="bordered-list">
+          <li>Made for static blogging with Jekyll</li>
+          <li>Easy theming with SCSS. Change a few variables and you've got your look</li>
+          <li>Using the wonderful open source font <a href="http://sourceforge.net/projects/sourcesans.adobe/">Source Sans Pro</a></li>
+          <li>Modern CSS using subtle transitions</li>
+          <li>Lightweight code (the CSS file is 18kb)</li>
+          <li>Responsive design with fluid grid and video</li>
+          <li>Code highlighting and image alignment classes for better looking blog posts</li>
+          <li>Drop in a Disqus code and you have comments</li>
+          <li>Photo banner on homepage, ready to customize</li>
+          <li>Built-in RSS feed</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Initial setup</h3>
+        <p>Download the files from the Github repository and put them in a folder. Make sure Jekyll, Susy, Compass and Sass are installed through <a href="http://rubygems.org/">RubyGems</a>:</p>
+        {% highlight bash %}
+sudo gem install jekyll
+sudo gem install susy
+sudo gem install sass
+sudo gem install compass{% endhighlight %}
+
+        <h3>How to use</h3>
+        <p>Run two terminal windows, one to compile the site and one to compile the CSS. If you're just blogging you only need the jekyll command:</p>
+        {% highlight bash %}
+jekyll serve -w
+compass watch{% endhighlight %}
+        <h3>Theme license</h3>
+        <p>The Cactus Jekyll theme is licensed under the <a href="http://opensource.org/licenses/MIT">MIT</a> license i.e. do whatever you want with it. Keeping the backlink and spreading the word would be nice.</p>
+      </div>
+    </div>
+  </div>
+</div>
