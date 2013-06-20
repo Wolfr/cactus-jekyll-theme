@@ -179,10 +179,7 @@ pre {
 
 #banner {
   // Cactus
-  background: #DADEE2 url(../images/1.jpg) center center;
-
-  // Lizard
-  // background: #DADEE2 url(../images/2.jpg) 120% 30%;
+  background: #1E2A28 url(../images/1.jpg) center center;
 
   @include background-size('cover');
   margin: 0 0 20px;
