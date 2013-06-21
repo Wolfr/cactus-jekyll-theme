@@ -192,6 +192,7 @@ pre {
     position: absolute;
     top: 0;
     left: 0;
+    background: #000;
     background: rgba(0,0,0,0.5);
   }
   .inner-content {
@@ -203,7 +204,7 @@ pre {
   }
   h1 {
     @include display-font;
-    font-size: 122px;
+    font-size: 110px;
     line-height: 0.9;
     color: #FFF;
   }
@@ -232,6 +233,7 @@ pre {
     height: 303px;
     padding: 0;
     .copy {
+      background: #000;
       background: rgba(0,0,0,0.5);
       padding: 20px;
       margin-top: 40px;
@@ -250,10 +252,10 @@ pre {
     @include muted-links;
   }
   @media all and (min-width: $break-large) {
-    p:first-child {
+    p.first-child {
       float: left;
     }
-    p:last-child {
+    p.last-child {
       float: right;
     }
   }
