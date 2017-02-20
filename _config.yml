@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-baseurl: /cactus-jekyll-theme
-=======
 name: Sitename
 markdown: kramdown
 baseurl: "/"
->>>>>>> master
